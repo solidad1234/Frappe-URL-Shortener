@@ -160,7 +160,7 @@ def _resolve_method(method_path):
     return func
 
 
-def _authenticate_request():apex_reports
+def _authenticate_request():
     """
     Validate the Authorization header and set the session user.
     Authorization header is MANDATORY - no fallback, no exceptions.
