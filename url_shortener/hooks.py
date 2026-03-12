@@ -247,3 +247,8 @@ app_license = "mit"
 # List of apps whose translatable strings should be excluded from this app's translations.
 # ignore_translatable_strings_from = []
 
+before_request = ["url_shortener.www.r.handle_shortener_request"]
+
+website_route_rules = [
+    {"from_route": "/r/<token>", "to_route": "r"}
+]

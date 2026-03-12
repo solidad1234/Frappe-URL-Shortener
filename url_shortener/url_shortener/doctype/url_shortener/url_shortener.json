@@ -1,0 +1,111 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2026-03-12 08:04:56.718713",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "token",
+  "original_url",
+  "is_active",
+  "api_user",
+  "column_break_mhzx",
+  "expiry_date",
+  "hit_count",
+  "last_accessed",
+  "section_break_hanr",
+  "description",
+  "section_break_dgcy",
+  "allowed_ips"
+ ],
+ "fields": [
+  {
+   "fieldname": "token",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Token"
+  },
+  {
+   "fieldname": "original_url",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Original URL"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_active",
+   "fieldtype": "Check",
+   "label": "Is Active"
+  },
+  {
+   "fieldname": "api_user",
+   "fieldtype": "Link",
+   "label": "API User",
+   "options": "User"
+  },
+  {
+   "fieldname": "column_break_mhzx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "expiry_date",
+   "fieldtype": "Date",
+   "label": "Expiry Date"
+  },
+  {
+   "fieldname": "hit_count",
+   "fieldtype": "Int",
+   "label": "Hit Count"
+  },
+  {
+   "fieldname": "last_accessed",
+   "fieldtype": "Datetime",
+   "label": "Last Accessed"
+  },
+  {
+   "fieldname": "section_break_hanr",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "label": "Description"
+  },
+  {
+   "fieldname": "section_break_dgcy",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "allowed_ips",
+   "fieldtype": "Code",
+   "label": "Allowed IPs"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-03-12 08:04:56.718713",
+ "modified_by": "Administrator",
+ "module": "Url Shortener",
+ "name": "URL Shortener",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
